@@ -1,0 +1,33 @@
+.form {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	width: 100%;
+	input {
+		height: 30px;
+		border-radius: 10px;
+		border: none;
+		width: 90%;
+		padding: 4px;
+		padding-left: 10px;
+		transition: all 0.3s ease 0s;
+		outline: none;
+	}
+	input:focus {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	}
+	button {
+		width: 39px;
+		height: 39px;
+		transition: all 0.3s ease 0s;
+	}
+	svg {
+		width: 39px;
+		height: 39px;
+		transition: all 0.3s ease 0s;
+		transform: rotate(-45deg);
+	}
+	button:hover svg{
+		transform: rotate(0deg);
+	}
+}
